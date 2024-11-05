@@ -7,7 +7,7 @@ API_ID = os.getenv("20787644", "").strip()
 API_HASH = os.getenv("9dada820698e8a5fdd5e6cc78fac8567", "").strip()
 BOT_TOKEN = os.getenv("7939164806:AAFM_IcYWxPqVVbKGbdlEThnXLQ4qHS1AYA", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip() # Not a necessary variable anymore but you can add to get stats
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+MUST_JOIN = os.getenv("https://t.me/coding", "")
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")
